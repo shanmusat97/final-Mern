@@ -1,0 +1,14 @@
+.backtotop-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  height: 2rem;
+  width: 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+  border: 2px solid;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  background-color: rgb(243, 235, 235);
+}

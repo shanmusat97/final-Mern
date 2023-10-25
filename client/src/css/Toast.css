@@ -1,0 +1,12 @@
+.Toastify__toast {
+  border: 2px solid;
+  /* font-family: "Old newspaper font" !important; */
+  color: black;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  background-color: rgb(243, 235, 235);
+}

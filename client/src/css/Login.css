@@ -1,0 +1,57 @@
+.login-container {
+  max-width: 400px;
+  padding: 50px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 400px;
+  flex-wrap: wrap;
+  border: 2px solid;
+}
+.login-heading {
+  /* font-family: "Chomsky"; */
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.login-container > .email,
+.password {
+  margin-bottom: 1rem;
+  /* font-family: "Old newspaper font"; */
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #000;
+  border: 2px solid;
+  padding: 0.25em 0.5em;
+  position: relative;
+  outline: none;
+  width: 100%;
+  background-color: rgb(243, 235, 235);
+}
+
+.login-container > .button-54 {
+  /* font-family: "Old newspaper font"; */
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 2px solid;
+  padding: 0.25em 0.5em;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  background-color: rgb(243, 235, 235);
+}
+.login-container > a {
+  color: black;
+  cursor: pointer;
+}
+
+@media (min-width: 769px) {
+  .login-container > .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
